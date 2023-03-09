@@ -1,0 +1,64 @@
+@media (min-width: 768px) and (max-width: 833px) {
+    body {
+        font-family: 'Montserrat'; 
+        .center 
+        {
+            padding-left: 24px;
+            padding-right: 24px;
+        }
+        .top {
+            padding-top: 217px;
+            padding-bottom: 400px;
+            .title {
+                font-weight: 600;
+                font-size: 54px;
+                line-height: 68px;
+            }
+            &__text {
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 32px;
+                margin-top: 32px;
+            }
+            &__link {
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 32px;
+                font-weight: bold;
+            } 
+            .box-button {
+                .button-top {
+                    margin-top: 44px;
+                    
+                }
+            } 
+        }
+        .top__content {
+            height: auto;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            .top__content-box {
+                .content {
+                    width: 235px;
+                    height: 180px; 
+                    .content-text { 
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 32px;
+                        padding: 0;
+                        padding-left: 13px;
+                        padding-top: 130px;
+                    }
+                    .content-link {
+                        .img {
+                            width: 227px;
+                            height: 180px;
+                        }
+                    }
+                    
+                }
+            }
+    
+        }  
+    }
+}
