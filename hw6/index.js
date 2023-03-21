@@ -12,7 +12,7 @@ for (let i = 0; i < num.length; i++) {
 
 
 const q = [1, 5, 4, 10, 0, 3]; 
-q.forEach ((el, index) => {console.log(`${index}:${el}`)})
+let a = q.indexOf(4); console.log(a)
 
 
 // Задание 3
@@ -54,9 +54,9 @@ let y = [9, 8, 7, 'a', 6, 5];
 // Задание 7
 
 
-let w = [9, 8, 7, 6, 5]; 
-let z = Number(prompt('Введите число от 1 до 10'));
-let u = w.includes(z)  if (u == true) {console.log('yes')  
+let masNumb = [9, 8, 7, 6, 5]; 
+let answer = Number(prompt('Введите число от 1 до 10'));
+let result = masNumb.includes(answer)  if (result == true) {console.log('yes')  
 } else {console.log('no')  
 } 
 
@@ -75,7 +75,7 @@ console.log(result)
 // Задание 10
 
 let num = [3, 2, 6, 4, 9]; 
-	 { 
+	 for(let i = 0; i < num.length - 1; i++) { 
 	let sum = (num[i] + num[i + 1]); console.log(sum)
 }
 
@@ -89,16 +89,20 @@ console.log(result)
 
 // Задание 12
 
-let str = String(prompt('Введите любые слова'));
-let strMas = Array.from(str);
-    strMas = strMas.map((nm) => nm.lenght); console.log(strMas)
+let str = ['пуля', 'дура', 'штык', 'молодец'];
+let numStr = str.map((nm) => {
+  return nm.length;
+});
+console.log(numStr)
 
 // Задание 13
 
 
 let str = prompt('Введите любые числа');
-let strMas = Array.from(str);
-strMas = strMas.map(nm => (nm * -1)); console.log(strMas)
+let strMas = str.split(''); 
+strMas = strMas.map(nm => (nm * - 1)); 
+console.log(strMas)
+
 
 
 
